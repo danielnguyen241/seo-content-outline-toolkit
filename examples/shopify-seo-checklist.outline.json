@@ -1,0 +1,54 @@
+{
+  "number": 1,
+  "keywords": [
+    { "keyword": "shopify seo checklist", "volume": 410 },
+    { "keyword": "shopify seo tips", "volume": 380 },
+    { "keyword": "shopify schema markup", "volume": 60 },
+    { "keyword": "shopify seo for beginners", "volume": 60 },
+    { "keyword": "shopify product page seo", "volume": 40 }
+  ],
+  "wordCount": "1800-2200",
+  "intent": "Informational / How-to",
+  "title": "Shopify SEO Checklist: Easy Fixes to Improve Your Store Rankings",
+  "outline": [
+    { "heading": "1.", "text": "What Is a Shopify SEO Checklist?" },
+    { "heading": "2.", "text": "Shopify SEO for Beginners: Start With the Basics" },
+    { "heading": "2.1", "text": "Set Up Google Search Console" },
+    { "heading": "2.2", "text": "Submit Your Shopify Sitemap" },
+    { "heading": "2.3", "text": "Connect Analytics to Track Organic Traffic" },
+    { "heading": "3.", "text": "Shopify SEO Tips for Keyword Research" },
+    { "heading": "3.1", "text": "Find Product Keywords" },
+    { "heading": "3.2", "text": "Find Collection Page Keywords" },
+    { "heading": "3.3", "text": "Find Blog Topic Keywords" },
+    { "heading": "4.", "text": "Shopify Product Page SEO Checklist" },
+    { "heading": "4.1", "text": "Optimize Product Title Tags and Meta Descriptions" },
+    { "heading": "4.2", "text": "Write Better Product Descriptions" },
+    { "heading": "4.3", "text": "Optimize Product Images" },
+    { "heading": "5.", "text": "Shopify Collection Page SEO Checklist" },
+    { "heading": "5.1", "text": "Optimize Collection Page Titles" },
+    { "heading": "5.2", "text": "Add Helpful Collection Descriptions" },
+    { "heading": "5.3", "text": "Use Internal Links Between Collections and Products" },
+    { "heading": "6.", "text": "Shopify Schema Markup Checklist" },
+    { "heading": "6.1", "text": "Add Product Schema" },
+    { "heading": "6.2", "text": "Add Review Schema" },
+    { "heading": "6.3", "text": "Check Structured Data Errors" },
+    { "heading": "7.", "text": "Technical Shopify SEO Checklist" },
+    { "heading": "7.1", "text": "Improve Site Structure and Navigation" },
+    { "heading": "7.2", "text": "Fix Speed and Mobile Issues" },
+    { "heading": "7.3", "text": "Check Indexing and Duplicate Content" },
+    { "heading": "8.", "text": "Content SEO Tips for Shopify Stores" },
+    { "heading": "8.1", "text": "Use Blog Content to Support Product Pages" },
+    { "heading": "8.2", "text": "Add Internal Links from Blog Posts" },
+    { "heading": "9.", "text": "Common Shopify SEO Mistakes to Avoid" },
+    { "heading": "10.", "text": "Shopify SEO Checklist FAQ" }
+  ],
+  "refs": [
+    "https://www.shopify.com/blog/seo-checklist-online-store",
+    "https://gofishdigital.com/blog/ultimate-shopify-seo-checklist/",
+    "https://www.ecommerce-gold.com/shopify-seo/",
+    "https://www.americaneagle.com/insights/blog/post/the-ultimate-shopify-search-engine-optimization-checklist",
+    "https://avidonmarketinggroup.com/blog/shopify-seo-checklist",
+    "https://www.20northmarketing.com/blog/shopify-seo-checklist"
+  ]
+}
+

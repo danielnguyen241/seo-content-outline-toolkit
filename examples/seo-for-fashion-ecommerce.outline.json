@@ -1,0 +1,47 @@
+{
+  "number": 2,
+  "keywords": [
+    { "keyword": "seo for fashion ecommerce", "volume": 140 },
+    { "keyword": "boutique seo", "volume": 70 },
+    { "keyword": "seo for fashion brands", "volume": 60 },
+    { "keyword": "seo for clothing brand", "volume": 50 }
+  ],
+  "wordCount": "1800-2200",
+  "intent": "Informational / How-to",
+  "title": "SEO for Fashion Ecommerce: How Fashion Brands and Boutiques Can Grow Organic Traffic",
+  "outline": [
+    { "heading": "1.", "text": "What Is SEO for Fashion Ecommerce?" },
+    { "heading": "2.", "text": "Why SEO Matters for Fashion Ecommerce Brands" },
+    { "heading": "3.", "text": "Build a Search-Friendly Fashion Ecommerce Site Structure" },
+    { "heading": "3.1", "text": "Organize Categories, Collections, and Product Pages Clearly" },
+    { "heading": "3.2", "text": "Use Internal Links Between Collections, Products, and Blog Content" },
+    { "heading": "4.", "text": "Optimize Category and Collection Pages for Fashion SEO" },
+    { "heading": "4.1", "text": "Write Useful Collection Page Copy" },
+    { "heading": "4.2", "text": "Target Style, Product Type, and Seasonal Keywords" },
+    { "heading": "5.", "text": "Improve Product Page SEO for Fashion Ecommerce" },
+    { "heading": "5.1", "text": "Optimize Product Titles and Descriptions" },
+    { "heading": "5.2", "text": "Add Image Alt Text for Fashion Products" },
+    { "heading": "5.3", "text": "Use Product, Review, and FAQ Schema" },
+    { "heading": "6.", "text": "Boutique SEO Tips for Smaller Fashion Stores" },
+    { "heading": "6.1", "text": "Target Niche Style Keywords" },
+    { "heading": "6.2", "text": "Create Local or Brand-Led Content" },
+    { "heading": "7.", "text": "SEO for Fashion Brands: Content Ideas That Drive Traffic" },
+    { "heading": "7.1", "text": "Create Style Guides and Outfit Inspiration Content" },
+    { "heading": "7.2", "text": "Build Seasonal Fashion Content" },
+    { "heading": "7.3", "text": "Use Lookbooks, Size Guides, and Care Guides" },
+    { "heading": "8.", "text": "SEO for Clothing Brand Growth" },
+    { "heading": "8.1", "text": "Build Topical Authority Around Your Products" },
+    { "heading": "8.2", "text": "Use Blog Content to Support Commercial Pages" },
+    { "heading": "9.", "text": "Common Fashion Ecommerce SEO Mistakes to Avoid" },
+    { "heading": "10.", "text": "How to Measure Fashion Ecommerce SEO Performance" },
+    { "heading": "11.", "text": "SEO for Fashion Ecommerce FAQ" }
+  ],
+  "refs": [
+    "https://powerdigitalmarketing.com/blog/seo-for-fashion-ecommerce/",
+    "https://centra.com/news/seo-for-fashion-ecommerce-complete-guide",
+    "https://www.flowmatters.com/blog/7-seo-tips-for-fashion-ecommerce-websites/",
+    "https://seoprofy.com/blog/seo-for-fashion-ecommerce/",
+    "https://www.linkgraph.com/blog/seo-for-fashion-brands/"
+  ]
+}
+
