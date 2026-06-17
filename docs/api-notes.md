@@ -15,6 +15,17 @@ Rules:
 - Cost observed: 100 units per request.
 - Default global volume proxy is `US + UK + AU + CA`.
 
+Keyword discovery endpoints:
+
+```text
+GET https://api.seranking.com/v1/keywords/similar
+GET https://api.seranking.com/v1/keywords/related
+GET https://api.seranking.com/v1/keywords/questions
+GET https://api.seranking.com/v1/keywords/longtail
+```
+
+Use these to research new keyword ideas from a seed keyword. The toolkit discovers candidates in Australia by default, then enriches the final candidate set with global proxy volume across `US + UK + AU + CA`.
+
 ## Serper.dev
 
 Endpoint:

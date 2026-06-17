@@ -7,12 +7,12 @@
   "license": "MIT",
   "scripts": {
     "volume": "node scripts/keyword-volume.mjs",
+    "research": "node scripts/research-keywords.mjs",
     "headings": "node scripts/serp-headings.mjs",
     "outline": "node scripts/generate-outline-tsv.mjs",
-    "check": "node scripts/keyword-volume.mjs --help && node scripts/serp-headings.mjs --help && node scripts/generate-outline-tsv.mjs --help"
+    "check": "node scripts/keyword-volume.mjs --help && node scripts/research-keywords.mjs --help && node scripts/serp-headings.mjs --help && node scripts/generate-outline-tsv.mjs --help"
   },
   "engines": {
     "node": ">=20"
   }
 }
-

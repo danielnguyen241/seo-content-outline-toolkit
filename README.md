@@ -36,6 +36,12 @@ Check keyword volume from SE Ranking:
 npm run volume -- examples/ecommerce-easy.input.tsv
 ```
 
+Research keyword ideas from a seed keyword:
+
+```bash
+npm run research -- "ecommerce seo" --discover-markets au --volume-markets us,uk,au,ca
+```
+
 Scrape competitor headings from Google Australia SERP:
 
 ```bash
@@ -80,5 +86,6 @@ For a Vietnamese setup guide you can send directly to teammates, see:
 
 - SE Ranking keyword export costs 100 units per request, so always batch keywords.
 - Default global volume is a proxy: `US + UK + AU + CA`.
+- Keyword research discovery uses SE Ranking `similar`, `related`, `questions`, and `longtail` endpoints.
 - Serper is used only to fetch Google Australia SERP URLs by default (`DEFAULT_SERP_GL=au`).
 - Firecrawl is used to scrape page markdown/headings. Batch scrape is attempted first; if it fails, the script falls back to per-URL scraping.

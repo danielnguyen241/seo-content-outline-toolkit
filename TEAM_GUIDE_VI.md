@@ -11,10 +11,11 @@ https://github.com/danielnguyen241/seo-content-outline-toolkit
 Toolkit này giúp team làm nhanh quy trình research content SEO:
 
 1. Nhập keyword cluster.
-2. Lấy volume keyword bằng SE Ranking API.
-3. Lấy top Google Australia results bằng Serper.dev API.
-4. Dùng Firecrawl API đọc heading của các bài top đầu.
-5. Tạo outline SEO dạng TSV để paste trực tiếp vào Google Sheets.
+2. Nếu chưa có keyword cluster, dùng SE Ranking API để research keyword từ seed.
+3. Lấy volume keyword bằng SE Ranking API.
+4. Lấy top Google Australia results bằng Serper.dev API.
+5. Dùng Firecrawl API đọc heading của các bài top đầu.
+6. Tạo outline SEO dạng TSV để paste trực tiếp vào Google Sheets.
 
 ## Tool này dùng API gì?
 
@@ -51,11 +52,33 @@ SE_RANKING_API_KEY=your_se_ranking_api_key
 SERPER_API_KEYS=your_serper_api_key
 FIRECRAWL_API_KEY=your_firecrawl_api_key
 DEFAULT_MARKETS=us,uk,au,ca
+DEFAULT_DISCOVERY_MARKETS=au
 DEFAULT_SERP_GL=au
 DEFAULT_SERP_HL=en
 ```
 
 ## Cách chạy
+
+### 0. Research keyword từ seed
+
+Nếu chỉ có topic/seed keyword, chạy:
+
+```bash
+npm run research -- "ecommerce seo"
+```
+
+Tool sẽ:
+
+- lấy keyword ideas từ SE Ranking `similar`, `related`, `questions`, `longtail`
+- mặc định discovery ở thị trường Úc
+- enrich volume theo global proxy `US + UK + AU + CA`
+- xuất file `.research.tsv` và `.research.json` trong thư mục `outputs/`
+
+Có thể chỉnh market:
+
+```bash
+npm run research -- "ecommerce seo" --discover-markets au --volume-markets us,uk,au,ca
+```
 
 ### 1. Lấy volume keyword
 

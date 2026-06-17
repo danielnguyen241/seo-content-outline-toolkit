@@ -2,6 +2,14 @@
 
 ## Step 1: Rough SEO Outline
 
+Before outlining, research keyword opportunities if the user only provides a seed topic:
+
+```bash
+npm run research -- "ecommerce seo"
+```
+
+This uses SE Ranking keyword discovery, then enriches candidates with global proxy volume.
+
 Prompt:
 
 ```text
