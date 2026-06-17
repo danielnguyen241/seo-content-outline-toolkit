@@ -70,10 +70,15 @@ Rules:
 
 See `docs/` for the full SOP and examples.
 
+## Team Guide
+
+For a Vietnamese setup guide you can send directly to teammates, see:
+
+[TEAM_GUIDE_VI.md](TEAM_GUIDE_VI.md)
+
 ## Cost Rules
 
 - SE Ranking keyword export costs 100 units per request, so always batch keywords.
 - Default global volume is a proxy: `US + UK + AU + CA`.
 - Serper is used only to fetch SERP URLs.
 - Firecrawl is used to scrape page markdown/headings. Batch scrape is attempted first; if it fails, the script falls back to per-URL scraping.
-
