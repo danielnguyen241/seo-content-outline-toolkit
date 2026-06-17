@@ -5,7 +5,7 @@ Toolkit for turning keyword clusters into SEO content outlines that can be paste
 It combines:
 
 - **SE Ranking API** for keyword volume and difficulty.
-- **Serper.dev API** for top Google organic results.
+- **Serper.dev API** for top Google Australia organic results.
 - **Firecrawl API** for scraping competitor headings.
 - A strict **TSV output format** for content planning sheets.
 
@@ -36,7 +36,7 @@ Check keyword volume from SE Ranking:
 npm run volume -- examples/ecommerce-easy.input.tsv
 ```
 
-Scrape competitor headings from Google SERP:
+Scrape competitor headings from Google Australia SERP:
 
 ```bash
 npm run headings -- "shopify seo checklist"
@@ -80,5 +80,5 @@ For a Vietnamese setup guide you can send directly to teammates, see:
 
 - SE Ranking keyword export costs 100 units per request, so always batch keywords.
 - Default global volume is a proxy: `US + UK + AU + CA`.
-- Serper is used only to fetch SERP URLs.
+- Serper is used only to fetch Google Australia SERP URLs by default (`DEFAULT_SERP_GL=au`).
 - Firecrawl is used to scrape page markdown/headings. Batch scrape is attempted first; if it fails, the script falls back to per-URL scraping.

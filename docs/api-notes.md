@@ -23,7 +23,7 @@ Endpoint:
 POST https://google.serper.dev/search
 ```
 
-Use it to fetch top organic URLs. It does not extract article headings.
+Use it to fetch top Google Australia organic URLs by default (`gl=au`). It does not extract article headings.
 
 ## Firecrawl
 
@@ -45,4 +45,3 @@ Use SERPROBOT for ranking data only:
 - Free/read actions: `credit`, `list_projects`, `project`, `keyword`, `project_report`.
 - Credit-consuming actions: `rank_check`, `get_serps`.
 - Read saved ranking reports first. Only run fresh checks when explicitly needed.
-

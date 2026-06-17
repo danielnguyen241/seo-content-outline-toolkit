@@ -19,9 +19,9 @@ Yêu cầu:
 - Chỉ trả ra outline, chưa viết nội dung
 ```
 
-## Step 2: Check Top 10 SERP
+## Step 2: Check Top 10 Google Australia SERP
 
-- Search keyword.
+- Search keyword on Google Australia.
 - Open top 10 results.
 - Check headings, missing sections, spam sections, and content type Google prefers.
 - Use Serper + Firecrawl to speed this up.
@@ -78,4 +78,3 @@ Do not write the full article in one shot. Write section by section to reduce re
 - NLP entities.
 - Intent match.
 - No keyword stuffing.
-

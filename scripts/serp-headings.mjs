@@ -5,9 +5,9 @@ import { ensureDir, extractMarkdownHeadings, firstKey, loadEnv, parseArgs, slugi
 
 function usage() {
   console.log(`Usage:
-  npm run headings -- "keyword" [--gl us] [--hl en] [--num 10]
+  npm run headings -- "keyword" [--gl au] [--hl en] [--num 10]
 
-Gets organic URLs from Serper, scrapes pages with Firecrawl, and writes heading evidence JSON.`);
+Gets organic URLs from Google Australia via Serper, scrapes pages with Firecrawl, and writes heading evidence JSON.`);
 }
 
 async function serperSearch(keyword, { gl, hl, num }) {
@@ -79,7 +79,7 @@ if (args.help || args._.length === 0) {
 if (!process.env.FIRECRAWL_API_KEY) throw new Error("Missing FIRECRAWL_API_KEY in .env");
 const keyword = args._.join(" ").trim();
 const serp = await serperSearch(keyword, {
-  gl: args.gl || process.env.DEFAULT_SERP_GL || "us",
+  gl: args.gl || process.env.DEFAULT_SERP_GL || "au",
   hl: args.hl || process.env.DEFAULT_SERP_HL || "en",
   num: Number(args.num || 10),
 });
@@ -110,4 +110,3 @@ ensureDir("outputs");
 const outputPath = path.join("outputs", `${slugify(keyword)}.headings.json`);
 fs.writeFileSync(outputPath, JSON.stringify({ keyword, createdAt: new Date().toISOString(), serp: rows }, null, 2));
 console.log(outputPath);
-

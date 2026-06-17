@@ -12,7 +12,7 @@ Toolkit này giúp team làm nhanh quy trình research content SEO:
 
 1. Nhập keyword cluster.
 2. Lấy volume keyword bằng SE Ranking API.
-3. Lấy top Google results bằng Serper.dev API.
+3. Lấy top Google Australia results bằng Serper.dev API.
 4. Dùng Firecrawl API đọc heading của các bài top đầu.
 5. Tạo outline SEO dạng TSV để paste trực tiếp vào Google Sheets.
 
@@ -21,7 +21,7 @@ Toolkit này giúp team làm nhanh quy trình research content SEO:
 Cần 3 API key:
 
 - `SE_RANKING_API_KEY`: lấy keyword volume và difficulty.
-- `SERPER_API_KEYS`: lấy top Google search results.
+- `SERPER_API_KEYS`: lấy top Google Australia search results.
 - `FIRECRAWL_API_KEY`: scrape competitor pages và lấy heading.
 
 Không gửi API key vào chat public, không commit API key lên GitHub.
@@ -51,7 +51,7 @@ SE_RANKING_API_KEY=your_se_ranking_api_key
 SERPER_API_KEYS=your_serper_api_key
 FIRECRAWL_API_KEY=your_firecrawl_api_key
 DEFAULT_MARKETS=us,uk,au,ca
-DEFAULT_SERP_GL=us
+DEFAULT_SERP_GL=au
 DEFAULT_SERP_HL=en
 ```
 
@@ -88,7 +88,7 @@ Lưu ý:
 - Keyword volume `0` không nên dùng.
 - Keyword volume `10` vẫn có thể dùng nếu topic dễ và đúng intent.
 
-### 2. Lấy heading top Google
+### 2. Lấy heading top Google Australia
 
 Chạy:
 
@@ -98,7 +98,7 @@ npm run headings -- "shopify seo checklist"
 
 Tool sẽ:
 
-- dùng Serper lấy top Google results
+- dùng Serper lấy top Google Australia results
 - dùng Firecrawl scrape từng URL
 - extract H1/H2/H3
 - lưu kết quả trong thư mục `outputs/`
@@ -164,7 +164,7 @@ Ví dụ format:
 1. Chọn keyword cluster.
 2. Check volume bằng SE Ranking.
 3. Chọn main keyword có volume cao nhất.
-4. Dùng Serper + Firecrawl lấy heading top Google.
+4. Dùng Serper + Firecrawl lấy heading top Google Australia.
 5. So sánh heading competitor.
 6. Loại heading rác, gom ý trùng.
 7. Tạo outline final.
@@ -181,7 +181,8 @@ SE Ranking:
 
 Serper:
 
-- Dùng để lấy Google SERP.
+- Dùng để lấy Google Australia SERP mặc định.
+- Default là `DEFAULT_SERP_GL=au`.
 
 Firecrawl:
 
@@ -225,4 +226,3 @@ Tool này hỗ trợ research và format outline nhanh hơn. Người làm conte
 - thêm insight thật
 - thêm internal link
 - chỉnh outline cho đúng brand và audience
-
